@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE scheme SYSTEM "scheme.dtd">
+<scheme package="optimization">
+	<object name="MeasureGroup_0" type="MeasureGroup" static="false">
+		<properties x="30" y="0" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="SORG"/>
+		<field name="sDescription" type="String" value="&lt;xml&gt;&amp;/\[]{}()äöõü!&quot;#¤%&amp;/()=?ć€&lt;/xml&gt;"/>
+		<field name="vdInvest" type="double[]" value="0.0%%4.0%%8.0%%12.0%%16.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.0%%0.25%%0.65%%0.9%%0.99%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%2.0%%4.0%%6.0%%8.0%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_1" type="MeasureGroup" static="false">
+		<properties x="30" y="30" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="&lt;xml&gt;&amp;/\[]{}()äöõü!&quot;#¤%&amp;/()=?ć&lt;/xml&gt;"/>
+		<field name="sDescription" type="String" value="Risk Assessment and Treatment"/>
+		<field name="vdInvest" type="double[]" value="0.0%%2.4%%5.0%%9.0%%12.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.0%%0.2%%0.6%%0.9%%0.91%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%1.2%%2.5%%4.5%%6.0%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_2" type="MeasureGroup" static="false">
+		<properties x="30" y="60" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="AWT"/>
+		<field name="sDescription" type="String" value="Awareness training"/>
+		<field name="vdInvest" type="double[]" value="0.0%%4.5%%6.0%%10.0%%15.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.0%%0.2%%0.6%%0.7%%0.8%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%2.25%%3.0%%5.0%%7.5%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_3" type="MeasureGroup" static="false">
+		<properties x="30" y="90" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="PSEC"/>
+		<field name="sDescription" type="String" value="Perimeter Security"/>
+		<field name="vdInvest" type="double[]" value="0.0%%1.0%%2.0%%4.0%%5.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.15%%0.3%%0.5%%0.8%%0.9%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.5%%1.0%%2.0%%2.5%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_4" type="MeasureGroup" static="false">
+		<properties x="30" y="120" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="C&amp;PSS"/>
+		<field name="sDescription" type="String" value="Communication and process supports IT systems"/>
+		<field name="vdInvest" type="double[]" value="0.0%%1.0%%3.0%%7.5%%9.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.0%%0.2%%0.5%%0.75%%0.9%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.5%%1.5%%3.75%%4.5%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_5" type="MeasureGroup" static="false">
+		<properties x="30" y="150" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="POW"/>
+		<field name="sDescription" type="String" value="Power"/>
+		<field name="vdInvest" type="double[]" value="0.0%%1.0%%2.5%%6.0%%9.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.75%%0.95%%0.95%%0.95%%0.99%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.5%%1.25%%3.0%%4.5%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_6" type="MeasureGroup" static="false">
+		<properties x="30" y="180" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="SW"/>
+		<field name="sDescription" type="String" value="Purchased Software"/>
+		<field name="vdInvest" type="double[]" value="0.0%%5.0%%30.0%%100.0%%130.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.15%%0.2%%0.45%%0.7%%0.85%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%2.5%%15.0%%50.0%%65.0%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_7" type="MeasureGroup" static="false">
+		<properties x="30" y="210" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="DEV"/>
+		<field name="sDescription" type="String" value="Self-developed Software"/>
+		<field name="vdInvest" type="double[]" value="0.0%%1.0%%10.0%%50.0%%75.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.1%%0.45%%0.8%%0.95%%0.99%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.5%%5.0%%25.0%%37.5%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_8" type="MeasureGroup" static="false">
+		<properties x="30" y="240" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="ARM"/>
+		<field name="sDescription" type="String" value="Access Rights Management"/>
+		<field name="vdInvest" type="double[]" value="0.0%%1.5%%5.0%%12.0%%16.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.0%%0.3%%0.6%%0.95%%0.99%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.75%%2.5%%6.0%%8.0%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_9" type="MeasureGroup" static="false">
+		<properties x="30" y="270" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="NAC"/>
+		<field name="sDescription" type="String" value="Network Access Control"/>
+		<field name="vdInvest" type="double[]" value="0.0%%0.5%%2.0%%6.5%%8.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.05%%0.5%%0.65%%0.8%%0.9%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.25%%1.0%%3.25%%4.0%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_10" type="MeasureGroup" static="false">
+		<properties x="30" y="300" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="MOB"/>
+		<field name="sDescription" type="String" value="Mobile computing and teleworking"/>
+		<field name="vdInvest" type="double[]" value="0.0%%1.5%%4.45%%6.0%%8.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.05%%0.3%%0.75%%0.9%%0.9%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.75%%2.225%%3.0%%4.0%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_11" type="MeasureGroup" static="false">
+		<properties x="30" y="330" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="LAN"/>
+		<field name="sDescription" type="String" value="Internal network security"/>
+		<field name="vdInvest" type="double[]" value="0.0%%5.0%%10.0%%20.0%%24.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.0%%0.2%%0.5%%0.65%%0.9%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%2.5%%5.0%%10.0%%12.0%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_12" type="MeasureGroup" static="false">
+		<properties x="30" y="360" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="WAN"/>
+		<field name="sDescription" type="String" value="External network security"/>
+		<field name="vdInvest" type="double[]" value="0.0%%0.5%%1.0%%1.5%%2.5%%"/>
+		<field name="vdEffect" type="double[]" value="0.1%%0.3%%0.6%%0.85%%0.95%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.25%%0.5%%0.75%%1.25%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_13" type="MeasureGroup" static="false">
+		<properties x="30" y="390" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="AV"/>
+		<field name="sDescription" type="String" value="Malware Handling"/>
+		<field name="vdInvest" type="double[]" value="0.0%%0.5%%2.0%%5.0%%6.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.0%%0.1%%0.3%%0.6%%0.8%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.25%%1.0%%2.5%%3.0%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_14" type="MeasureGroup" static="false">
+		<properties x="30" y="420" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="ENC"/>
+		<field name="sDescription" type="String" value="Information exchange policies and procedures"/>
+		<field name="vdInvest" type="double[]" value="0.0%%1.0%%1.5%%2.0%%3.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.0%%0.35%%0.45%%0.6%%0.8%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.5%%0.75%%1.0%%1.5%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_15" type="MeasureGroup" static="false">
+		<properties x="30" y="450" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="TINT"/>
+		<field name="sDescription" type="String" value="Transaction Integrity"/>
+		<field name="vdInvest" type="double[]" value="0.0%%2.0%%5.0%%6.0%%8.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.0%%0.4%%0.7%%0.9%%0.99%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%1.0%%2.5%%3.0%%4.0%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_16" type="MeasureGroup" static="false">
+		<properties x="30" y="480" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="BCK"/>
+		<field name="sDescription" type="String" value="Data backup and Restoration"/>
+		<field name="vdInvest" type="double[]" value="0.0%%0.5%%1.5%%10.0%%13.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.05%%0.4%%0.5%%0.9%%0.99%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.25%%0.75%%5.0%%6.5%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_17" type="MeasureGroup" static="false">
+		<properties x="30" y="510" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="REG"/>
+		<field name="sDescription" type="String" value="External Regulations"/>
+		<field name="vdInvest" type="double[]" value="0.0%%10.0%%20.0%%40.0%%47.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.05%%0.1%%0.35%%0.6%%0.9%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%5.0%%10.0%%20.0%%23.5%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_18" type="MeasureGroup" static="false">
+		<properties x="30" y="540" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="AUD"/>
+		<field name="sDescription" type="String" value="Audit Capability"/>
+		<field name="vdInvest" type="double[]" value="0.0%%0.5%%3.0%%9.0%%11.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.1%%0.35%%0.6%%0.95%%0.99%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.25%%1.5%%4.5%%5.5%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_19" type="MeasureGroup" static="false">
+		<properties x="30" y="570" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="LOG"/>
+		<field name="sDescription" type="String" value="Audit Trail"/>
+		<field name="vdInvest" type="double[]" value="0.0%%0.5%%2.0%%20.0%%26.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.05%%0.35%%0.6%%0.95%%0.99%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.25%%1.0%%10.0%%13.0%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_20" type="MeasureGroup" static="false">
+		<properties x="30" y="600" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="MON"/>
+		<field name="sDescription" type="String" value="Monitoring (Help Desk)"/>
+		<field name="vdInvest" type="double[]" value="0.0%%2.4%%5.0%%7.0%%8.5%%"/>
+		<field name="vdEffect" type="double[]" value="0.05%%0.1%%0.4%%0.8%%0.9%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%1.2%%2.5%%3.5%%4.25%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_21" type="MeasureGroup" static="false">
+		<properties x="30" y="630" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="BCM"/>
+		<field name="sDescription" type="String" value="Business Continuity Management"/>
+		<field name="vdInvest" type="double[]" value="0.0%%2.0%%3.0%%4.5%%6.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.05%%0.3%%0.75%%0.95%%0.99%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%1.0%%1.5%%2.25%%3.0%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_22" type="MeasureGroup" static="false">
+		<properties x="30" y="660" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="SR"/>
+		<field name="sDescription" type="String" value="IT Systems Recovery (Redundancy)"/>
+		<field name="vdInvest" type="double[]" value="0.0%%5.0%%8.0%%16.0%%20.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.05%%0.4%%0.6%%0.95%%0.99%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%2.5%%4.0%%8.0%%10.0%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_23" type="MeasureGroup" static="false">
+		<properties x="30" y="690" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="CM"/>
+		<field name="sDescription" type="String" value="Crisis Management"/>
+		<field name="vdInvest" type="double[]" value="0.0%%0.5%%5.0%%15.0%%17.0%%"/>
+		<field name="vdEffect" type="double[]" value="0.05%%0.25%%0.55%%0.8%%0.9%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.25%%2.5%%7.5%%8.5%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+	<object name="MeasureGroup_24" type="MeasureGroup" static="false">
+		<properties x="30" y="720" xsize="1.0" ysize="1.0" strict="false"/>
+		<fields>
+		<field name="sCode" type="String" value="ASM"/>
+		<field name="sDescription" type="String" value="Asset Management"/>
+		<field name="vdInvest" type="double[]" value="0.0%%0.5%%1.0%%1.3%%1.6%%"/>
+		<field name="vdEffect" type="double[]" value="0.05%%0.2%%0.4%%0.8%%0.9%%"/>
+		<field name="vdMaintn" type="double[]" value="0.0%%0.25%%0.5%%0.65%%0.8%%"/>
+		<field name="iLvlSit" type="int" value="0"/>
+		<field name="iLvlReq" type="int"/>
+		</fields>
+	</object>
+</scheme>

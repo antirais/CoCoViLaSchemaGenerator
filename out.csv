@@ -1,0 +1,34 @@
+,,Costs,,,,,Confidence,,,,
+Abbrevation,Full name,0 - None,1 - Low,2 - Medium,3- Good,4-Mission critical,0-None,"1- Low, but existing",2- Medium solution/level,3- Good solution,4-Mission critical
+SORG,<xml>&/\[]{}()äöõü!"#¤%&/()=?ć€</xml>,0 €,4 000 €,8 000 €,12 000 €,16 000 €,0,25,65,90,99
+<xml>&/\[]{}()äöõü!"#¤%&/()=?ć€</xml>,Risk Assessment and Treatment,0 €,2 400 €,5 000 €,9 000 €,12 000 €,0,20,60,90,91
+AWT,Awareness training,0 €,4 500 €,6 000 €,10 000 €,15 000 €,0,20,60,70,80
+PSEC,Perimeter Security,0 €,1 000 €,2 000 €,4 000 €,5 000 €,15,30,50,80,90
+C&PSS,Communication and process supports IT systems,0 €,1 000 €,3 000 €,7 500 €,9 000 €,0,20,50,75,90
+POW,Power,0 €,1 000 €,2 500 €,6 000 €,9 000 €,75,95,95,95,99
+SW,Purchased Software,0 €,5 000 €,30 000 €,100 000 €,130 000 €,15,20,45,70,85
+DEV,Self-developed Software,0 €,1 000 €,10 000 €,50 000 €,75 000 €,10,45,80,95,99
+ARM,Access Rights Management,0 €,1 500 €,5 000 €,12 000 €,16 000 €,0,30,60,95,99
+NAC,Network Access Control,0 €,500 €,2 000 €,6 500 €,8 000 €,5,50,65,80,90
+MOB,Mobile computing and teleworking,0 €,1 500 €,4 450 €,6 000 €,8 000 €,5,30,75,90,90
+LAN,Internal network security,0 €,5 000 €,10 000 €,20 000 €,24 000 €,0,20,50,65,90
+WAN,External network security,0 €,500 €,1 000 €,1 500 €,2 500 €,10,30,60,85,95
+AV,Malware Handling,0 €,500 €,2 000 €,5 000 €,6 000 €,0,10,30,60,80
+ENC,Information exchange policies and procedures,0 €,1 000 €,1 500 €,2 000 €,3 000 €,0,35,45,60,80
+TINT,Transaction Integrity,0 €,2 000 €,5 000 €,6 000 €,8 000 €,0,40,70,90,99
+BCK,Data backup and Restoration,0 €,500 €,1 500 €,10 000 €,13 000 €,5,40,50,90,99
+REG,External Regulations,0 €,10 000 €,20 000 €,40 000 €,47 000 €,5,10,35,60,90
+AUD,Audit Capability,0 €,500 €,3 000 €,9 000 €,11 000 €,10,35,60,95,99
+LOG,Audit Trail,0 €,500 €,2 000 €,20 000 €,26 000 €,5,35,60,95,99
+MON,Monitoring (Help Desk),0 €,2 400 €,5 000 €,7 000 €,8 500 €,5,10,40,80,90
+BCM,Business Continuity Management,0 €,2 000 €,3 000 €,4 500 €,6 000 €,5,30,75,95,99
+SR,IT Systems Recovery (Redundancy),0 €,5 000 €,8 000 €,16 000 €,20 000 €,5,40,60,95,99
+CM,Crisis Management,0 €,500 €,5 000 €,15 000 €,17 000 €,5,25,55,80,90
+ASM,Asset Management,0 €,500 €,1 000 €,1 300 €,1 600 €,5,20,40,80,90
+,,,,,,,,,,,
+,,,,,,,,,,,
+Confidence Levels,,,,,,,,,,,
+0,There is nothing,,,,,,,,,,
+30,Some security,,,,,,,,,,
+60,Average security,,,,,,,,,,
+90,Good security,,,,,,,,,,
