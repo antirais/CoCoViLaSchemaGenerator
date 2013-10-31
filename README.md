@@ -1,15 +1,13 @@
 CoCoViLaSchemaGenerator
 =======================
 
-Script to generate .syn files for CoCoViLa from .csv format
+Script to generate .syn files from .csv format for graded security level optimization in CoCoViLa 
 
  * *[CoCoViLa repository](http://sourceforge.net/projects/cocovila/)*
  * *[CoCoViLa homepage](http://www.cs.ioc.ee/cocovila/)*
 
 
-
 Tested on LibreOffice Calc Version 4.0.2.2 and Python 2.7.4
-
 
 Reads input from CSV file with specific format described below:
 
